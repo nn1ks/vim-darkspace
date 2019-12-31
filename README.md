@@ -1,4 +1,4 @@
-# dark-space
+# darkspace
 A vim color scheme based on [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space)
 
 ## Installation

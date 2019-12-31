@@ -5,7 +5,7 @@ if exists('syntax_on')
 endif
 
 set background=dark
-let g:colors_name = 'dark-space'
+let g:colors_name = 'darkspace'
 
 let g:darkspace_italics = get(g:, 'darkspace_italics', 0)
 
