@@ -1,5 +1,5 @@
-# darkspace
-A vim color scheme based on [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space)
+# vim-darkspace
+A vim color scheme based on [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space).
 
 ## Installation
 **NOTE:** This color scheme requires a terminal that supports true colors!
@@ -9,7 +9,7 @@ following to your (n)vim configuration file:
 ```vim
 set background=dark
 set termguicolors
-colorscheme dark-space
+colorscheme darkspace
 ```
 
 ### Options
@@ -21,5 +21,5 @@ let g:darkspace_italics=1
 ### Vim Airline
 To use the included [vim-airline](https://github.com/vim-airline/vim-airline) theme:
 ```vim
-let g:airline_theme='deep_space'
+let g:airline_theme='darkspace'
 ```
