@@ -182,6 +182,16 @@ call s:HL('SignifySignAdd',                 s:green,    '',         '')
 call s:HL('SignifySignChange',              s:yellow,   '',         '')
 call s:HL('SignifySignDelete',              s:red,      '',         '')
 
+" Vim-Startify
+call s:HL('StartifyHeader',                 s:green,    '',         '')
+call s:HL('StartifySection',                s:purple,   '',         '')
+call s:HL('StartifyBracket',                s:blue,     '',         '')
+call s:HL('StartifyNumber',                 s:gray5,    '',         '')
+call s:HL('StartifySelect',                 s:green,    '',         'bold')
+call s:HL('StartifyPath',                   s:gray5,    '',         '')
+call s:HL('StartifySlash',                  s:gray5,    '',         '')
+call s:HL('StartifyFile',                   s:blue,     '',         'bold')
+
 if has("nvim") && exists("&termguicolors") && &termguicolors
     let g:terminal_color_0  = "#000000"
     let g:terminal_color_8  = "#181a1e"
