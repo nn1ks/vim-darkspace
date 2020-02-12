@@ -13,8 +13,8 @@ let g:darkspace_italics = get(g:, 'darkspace_italics', 0)
 let s:gray1  = '#000000'
 let s:gray2  = '#181a1e'
 let s:gray3  = '#32363c'
-let s:gray4  = '#51556d'
-let s:gray5  = '#aab7cd'
+let s:gray4  = '#707a8f'
+let s:gray5  = '#b0bacf'
 let s:red    = '#bd6356'
 let s:green  = '#8dd9a9'
 let s:yellow = '#dadc8c'
@@ -196,7 +196,7 @@ if has("nvim") && exists("&termguicolors") && &termguicolors
     let g:terminal_color_5  = "#9f82cf"
     let g:terminal_color_13 = "#c87ebd"
     let g:terminal_color_6  = "#66bdc7"
-    let g:terminal_color_14 = "#51556d"
+    let g:terminal_color_14 = "#707a8f"
     let g:terminal_color_7  = "#32363c"
-    let g:terminal_color_15 = "#aab7cd"
+    let g:terminal_color_15 = "#b0bacf"
 endif
