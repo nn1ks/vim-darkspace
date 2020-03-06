@@ -24,6 +24,11 @@ let s:cyan   = '#66bdc7'
 let s:orange = '#b3947a'
 let s:pink   = '#c87ebd'
 
+let s:line1 = '#909aaf'
+let s:line2 = '#242832'
+let s:line3 = '#606a7f'
+let s:line4 = '#14161a'
+
 function! s:HL(group, fg, bg, attr)
     let l:attr = a:attr
     if !g:darkspace_italics && l:attr ==# 'italic'
@@ -72,12 +77,12 @@ call s:HL('Search',                         s:gray1,    s:yellow,   '')
 call s:HL('SpecialKey',                     s:gray4,    '',         '')
 call s:HL('SpellCap',                       s:blue,     '',         'undercurl')
 call s:HL('SpellBad',                       s:red,      '',         'undercurl')
-call s:HL('StatusLine',                     s:gray5,    s:gray3,    'none')
-call s:HL('StatusLineNC',                   s:gray2,    s:gray4,    '')
-call s:HL('TabLine',                        s:gray4,    s:gray1,    'none')
-call s:HL('TabLineFill',                    s:gray4,    s:gray1,    'none')
-call s:HL('TabLineSel',                     s:gray2,    s:gray4,    '')
-call s:HL('Title',                          s:yellow,   '',         'none')
+call s:HL('StatusLine',                     s:line1,    s:line2,    'none')
+call s:HL('StatusLineNC',                   s:line3,    s:line4,    'none')
+call s:HL('TabLine',                        s:line3,    s:gray1,    'none')
+call s:HL('TabLineFill',                    s:line3,    s:gray1,    'none')
+call s:HL('TabLineSel',                     s:line1,    s:line2,    'none')
+call s:HL('Title',                          s:gray4,    '',         'italic')
 call s:HL('Visual',                         s:gray5,    s:gray3,    '')
 call s:HL('WarningMsg',                     s:red,      '',         '')
 call s:HL('WildMenu',                       s:gray2,    s:blue,     '')
