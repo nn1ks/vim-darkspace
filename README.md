@@ -1,4 +1,6 @@
 # vim-darkspace
+**WARNING**: This repo is not maintained anymore. Use [ts-26a/vim-darkspace](https://github.com/ts-26a/vim-darkspace) instead.
+
 A vim color scheme based on [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space).
 
 ![screenshot](https://i.imgur.com/DbXNwRG.png)
